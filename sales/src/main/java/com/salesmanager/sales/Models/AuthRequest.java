@@ -1,17 +1,15 @@
-package com.salesmanager.sales.models;
+package com.salesmanager.sales.Models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.ToString;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-@ToString
-public class User {
+@NoArgsConstructor
+public class AuthRequest {
 
-    private int id;
     private String email;
     private String password;
+
 }
